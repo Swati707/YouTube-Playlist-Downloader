@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function clickhandler()
+		{
+			window.webkitNotifications.createNotification("icon.gif", "Clicked", "it was clicked").show();
+		}
+	</script>
+</head>
+<body>
+	<div>This is my first extension. :D</div>
+	<br>
+	<input type="button" value="Click me" onclick="clickhandler()"/>
+</body>
+</html>

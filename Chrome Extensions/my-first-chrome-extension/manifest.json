@@ -1,0 +1,12 @@
+{
+	"name" : "my-first-chrome-extension",
+	"description" : "created while learning how to make an extension",
+	"version" : "0.1",
+	"manifest_version" : 2,
+	"background_page" : "background.html",
+	"browser_action" : {
+		"popup" : "popup.html",
+		"default_icon" : "icon.gif"
+	},
+	"permissions" : ["notifications"]
+}
